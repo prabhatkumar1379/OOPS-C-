@@ -122,6 +122,49 @@ namespace DemoObject
   </p>
 </details>
 
+```
+
+STACK                           HEAP
+-----                           ------------------
+emp  ──────────────┐            Employee Object #1
+                    └────────▶  Id = 101
+                                 Name = "Prabhat Yadav"
+                                 Work()
+
+emp2 ─────────────┐             Employee Object #2
+                   └─────────▶  Id = 2
+                                 Name = "Pushpa Yadav"
+                                 Work()
+```
+
+<details>
+  <summary><b>❓ Does every object have its own copy of data?</b></summary>
+
+  <p>
+    Yes, every object has its own copy of instance variables.
+    Changing the state of one object does not affect another object.
+  </p>
+</details>
+
+<details>
+  <summary><b>❓ Can an object exist without a class in C#?</b></summary>
+
+  <p>
+    No. In C#, every object must be created from a class.
+    A class defines the structure and behavior required to create an object.
+  </p>
+</details>
+
+<details>
+  <summary><b>❓ How is object identity determined in C#?</b></summary>
+
+  <p>
+    Object identity is determined by its reference.
+    Even if two objects have the same data, they are different objects
+    if they are stored at different memory locations.
+  </p>
+</details>
+
 
 
 </details>
