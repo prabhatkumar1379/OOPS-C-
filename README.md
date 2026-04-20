@@ -235,7 +235,8 @@ emp2.Name = "Changed";
   <p>C. When no references point to the object</p>
   <p>D. When Dispose() is called</p>
 
-  <hr/>
+<details>
+    <hr/>
 
   <p><b>✅ Correct Answer:</b> C</p>
   <p>
@@ -243,7 +244,137 @@ emp2.Name = "Changed";
     Garbage collection timing is non-deterministic.
   </p>
 </details>
-``
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 5: Can an object exist without any reference?</b></summary>
+
+  <p>A. Yes, permanently</p>
+  <p>B. Yes, until GC runs</p>
+  <p>C. No, object is destroyed immediately</p>
+  <p>D. Only for value types</p>
+
+<details>
+
+  <hr/>
+
+  <p><b>✅ Correct Answer:</b> B</p>
+  <p>
+    An object can exist temporarily without references.
+    It will be removed later by the Garbage Collector.
+  </p>
+  
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 6: What happens immediately after object memory allocation?</b></summary>
+
+  <p>A. Methods are executed</p>
+  <p>B. Fields are initialized</p>
+  <p>C. Constructor is executed</p>
+  <p>D. Finalizer is executed</p>
+
+<details>
+
+    <hr/>
+
+  <p><b>✅ Correct Answer:</b> C</p>
+  <p>
+    After memory allocation, the constructor is executed to initialize the object.
+  </p>
+  
+</details>
+
+</details>
+
+
+</details>
+
+
+<details>
+  <summary><b>🔴 MCQ 7: How are objects passed to methods in C#?</b></summary>
+
+  <p>A. By value</p>
+  <p>B. By reference</p>
+  <p>C. By value of reference</p>
+  <p>D. By pointer</p>
+
+     <details>
+
+         <hr/>
+
+          <p><b>✅ Correct Answer:</b> C</p>
+          <p>
+            C# passes object references by value.
+            The reference is copied, not the object itself.
+          </p>
+  
+      </details>
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 8: What does '==' compare for reference types by default?</b></summary>
+
+  <p>A. Object data</p>
+  <p>B. Object state</p>
+  <p>C. Reference (memory address)</p>
+  <p>D. HashCode</p>
+
+    <details>
+        <hr/>
+
+        <p><b>✅ Correct Answer:</b> C</p>
+        <p>
+          For reference types, <code>==</code> compares references unless overloaded.
+        </p>
+    </details>
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 9: What kind of copy happens when assigning one object to another?</b></summary>
+
+  <p>A. Deep copy</p>
+  <p>B. Shallow copy</p>
+  <p>C. Clone copy</p>
+  <p>D. Memory duplication</p>
+
+  <details>
+     <hr/>
+
+      <p><b>✅ Correct Answer:</b> B</p>
+      <p>
+        Assignment copies the reference, not the actual object.
+        This is a shallow copy behavior.
+      </p>
+  
+  </details>
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 10: Is object destruction deterministic in C#?</b></summary>
+
+  <p>A. Yes, always</p>
+  <p>B. Yes, when Dispose() is called</p>
+  <p>C. No, it depends on GC</p>
+  <p>D. Only for large objects</p>
+
+  <details>
+
+    <hr/>
+
+  <p><b>✅ Correct Answer:</b> C</p>
+  <p>
+    Garbage collection is non-deterministic.
+    Object destruction timing cannot be predicted.
+  </p>
+  
+  </details>
+</details>
+
+
+
+
+
 
 
 </details>
