@@ -426,3 +426,75 @@ namespace DemoClass
 }
 
 ```
+
+
+<details>
+<h1>  Difference between class and object</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Class</th>
+      <th>Object</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Definition</td>
+      <td>A class is a blueprint or template used to create objects</td>
+      <td>An object is a real instance created from a class</td>
+    </tr>
+    <tr>
+      <td>Nature</td>
+      <td>Logical entity</td>
+      <td>Physical entity (exists at runtime)</td>
+    </tr>
+    <tr>
+      <td>Memory Allocation</td>
+      <td>Does not occupy memory for instance data</td>
+      <td>Occupies memory on the Heap</td>
+    </tr>
+    <tr>
+      <td>Creation</td>
+      <td>Created using the <code>class</code> keyword</td>
+      <td>Created using the <code>new</code> keyword</td>
+    </tr>
+    <tr>
+      <td>Existence Time</td>
+      <td>Exists at compile time</td>
+      <td>Exists at runtime</td>
+    </tr>
+    <tr>
+      <td>State (Data)</td>
+      <td>Defines what data an object will have</td>
+      <td>Holds actual values of data</td>
+    </tr>
+    <tr>
+      <td>Behavior (Methods)</td>
+      <td>Defines methods</td>
+      <td>Executes methods</td>
+    </tr>
+    <tr>
+      <td>Identity</td>
+      <td>Has no identity</td>
+      <td>Has a unique identity (reference)</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>Only one class definition</td>
+      <td>Multiple objects can be created</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td><code>class Employee { }</code></td>
+      <td><code>Employee emp = new Employee();</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+</details>
+</details>
+
+
