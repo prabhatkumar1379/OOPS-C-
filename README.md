@@ -667,7 +667,7 @@ Q3: Why are properties preferred over public fields?
     An ATM shows options like Withdraw, Deposit, Check Balance.<br/>
     You never see how cash validation, network calls, or database updates work.
   </p>
-</details>
+
 
 <hr/>
 
@@ -739,4 +739,6 @@ namespace DemoAbstraction
 }
 
 ```
+
+</details>
  
