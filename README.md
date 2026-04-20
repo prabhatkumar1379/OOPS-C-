@@ -521,7 +521,7 @@ namespace DemoClass
     A Bank Account does not allow direct access to balance.
     You must use Deposit or Withdraw operations.
   </p>
-</details>
+
 
 <hr/>
 
@@ -603,44 +603,40 @@ namespace DemoEncapsulation
 }
 
 ```
-<details>
+
   Q1: Is Encapsulation only about using private fields?
   Answer: No.
     Encapsulation is about controlling access, not just hiding data.
     Validation logic, read-only properties, immutability, and even methods
     contribute to proper encapsulation.
-</details>
-
-<details>
+ 
+ 
  Q2: Can Encapsulation exist without Abstraction?
   Answer: Yes.
     Encapsulation protects data integrity, while abstraction focuses on exposing behavior.
     They are related but independent principles.
-</details>
-
-<details>
+ 
+ 
 Q3: Why are properties preferred over public fields?
    . Enable validation logic
    . Support future changes without breaking clients
    . Preserve backward compatibility
    . Improve maintainability and versioning
-</details>
-
-<details>
+ 
+ 
 
    Q4: Does Encapsulation help with thread safety?
    Answer: Indirectly, yes.
     Encapsulation centralizes state changes, making synchronization
     and locking easier to manage in one place.
-</details>
-
-<details>
+ 
+ 
   Q5: Is Encapsulation a compile-time or runtime concept?
   Answer: Both.
   
     Compile-time: enforced by access modifiers
     Runtime: ensured by business rules inside methods
-</details>
+ 
 
  
 
