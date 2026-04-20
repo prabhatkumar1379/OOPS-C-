@@ -858,7 +858,7 @@ namespace DemoAbstraction
   </tbody>
 </table>
 
-<h3>🎓 Interview‑Ready Explanation (Say This Clearly)</h3>
+<h3>Explanation </h3>
 
 <p>
   “In real life, an ATM exposes only available operations like
@@ -867,11 +867,7 @@ namespace DemoAbstraction
   which is <b>encapsulation</b>.”
 </p>
 
-<p>
-  <i>
-    This single line immediately signals senior‑level clarity.
-  </i>
-</p>
+
 
 <hr/>
 
