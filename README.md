@@ -858,6 +858,33 @@ namespace DemoAbstraction
   </tbody>
 </table>
 
+<h3>🎓 Interview‑Ready Explanation (Say This Clearly)</h3>
+
+<p>
+  “In real life, an ATM exposes only available operations like
+  <b>withdraw</b> or <b>deposit</b>, which is <b>abstraction</b>.
+  The actual account balance is hidden and modified only through rules,
+  which is <b>encapsulation</b>.”
+</p>
+
+<p>
+  <i>
+    This single line immediately signals senior‑level clarity.
+  </i>
+</p>
+
+<hr/>
+
+<h3>✅ One‑Line Final Summary</h3>
+
+<ul>
+  <li>
+    <b>Abstraction</b> → hides complexity (<b>WHAT</b>)
+  </li>
+  <li>
+    <b>Encapsulation</b> → protects data (<b>HOW SAFELY</b>)
+  </li>
+</ul>
 
 
 
