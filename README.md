@@ -183,5 +183,25 @@ emp2 ─────────────┐             Employee Object #2
     
 </details>
 
+<details>
+  <summary><b>🔴 MCQ 1: Two objects have the same values but different references. Are they the same object?</b></summary>
+
+  <p>A. Yes, because data is same</p>
+  <p>B. Yes, if they are of same class</p>
+  <p>C. No, they are different objects</p>
+  <p>D. Depends on compiler optimization</p>
+
+  <hr/>
+  <details>
+     <p><b>✅ Correct Answer:</b> C</p>
+  <p>
+    Objects are identified by their reference (memory location).
+    Even if data is identical, different references mean different objects.
+  </p>
+  </details>
+  
+</details>
+
+
 
 </details>
