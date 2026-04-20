@@ -5,7 +5,7 @@
 **Answer:** 
   An object is a real instance created in memory from a class. It holds data and can perform actions.
   <br>
- **Note:** : Every object has its own identity, state, and behavior.
+ **Note:** Every object has its own identity, state, and behavior.
  
 ----------------------------------------------
 <h1>Class(Blueprint)</h1>
@@ -69,4 +69,4 @@ namespace DemoObject
 }
 
 ```
-<p>Note : emp and emp2 are objects created from the same class, each having its own identity and state, while sharing the same behavior defined in the class.</p>
+**Note:** emp and emp2 are objects created from the same class, each having its own identity and state, while sharing the same behavior defined in the class.
