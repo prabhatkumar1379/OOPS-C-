@@ -501,10 +501,9 @@ namespace DemoClass
 </details>
 <hr>
 
+<details>
 
-<h1>Encapsulation</h1>
-
-
+  
   <summary><b>❓ What is Encapsulation in C#?</b></summary>
 
   <p>
@@ -645,6 +644,7 @@ Q3: Why are properties preferred over public fields?
 
  
 
+</details>
 
 
 
