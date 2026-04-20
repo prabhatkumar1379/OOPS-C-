@@ -1,11 +1,11 @@
-### ❓1 What is an object in C#?</p>
+### 1 What is an object in C#❓
 
 <hr>
-<p>
+**Answer:** 
   An object is a real instance created in memory from a class. It holds data and can perform actions.
   <br>
-  Note : Every object has its own identity, state, and behavior.
-</p>
+ **Note:** : Every object has its own identity, state, and behavior.
+ 
 ----------------------------------------------
 <h1>Class(Blueprint)</h1>
 
