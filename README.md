@@ -99,4 +99,18 @@ namespace DemoObject
   </p>
 </details>
 
+<details>
+  <summary><b>❓ What happens when an object is created in C#?</b></summary>
+
+  <p>
+    When an object is created:
+  </p>
+
+  <ul>
+    <li>Memory is allocated for the object</li>
+    <li>The constructor (if present) is executed</li>
+    <li>The object becomes ready to use</li>
+  </ul>
+</details>
+
 </details>
