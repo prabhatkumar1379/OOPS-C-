@@ -69,3 +69,4 @@ namespace DemoObject
 }
 
 ```
+<p>Note : emp and emp2 are objects created from the same class, each having its own identity and state, while sharing the same behavior defined in the class.</p>
