@@ -7,3 +7,18 @@
   <br>
   Note : Every object has its own identity, state, and behavior.
 </p>
+----------------------------------------------
+<h1>Class(Blueprint)</h1>
+
+```
+class Employee
+{
+    public int Id;
+    public string Name;
+
+    public void Work()
+    {
+        Console.WriteLine("Employee is working");
+    }
+}
+```
