@@ -427,6 +427,8 @@ namespace DemoClass
 
 ```
 
+</details>
+
 
 <details>
 <h1>  Difference between class and object</h1>
@@ -495,6 +497,3 @@ namespace DemoClass
 
 
 </details>
-</details>
-
-
