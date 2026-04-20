@@ -88,4 +88,15 @@ namespace DemoObject
     A class does not occupy memory for data, but an object occupies memory.
   </p>
 </details>
+
+<details>
+  <summary><b>❓ Can we create multiple objects from the same class?</b></summary>
+
+  <p>
+    Yes, we can create multiple objects from the same class.
+    Each object will have its <b>own identity</b> and <b>separate state</b>,
+    but all objects share the same <b>behavior</b> defined in the class.
+  </p>
+</details>
+
 </details>
