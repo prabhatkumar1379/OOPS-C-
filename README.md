@@ -77,4 +77,15 @@ namespace DemoObject
 ```
 **Note:** emp and emp2 are objects created from the same class, each having its own identity and state, while sharing the same behavior defined in the class.
 
+<details>
+  <summary><b>❓ What is the difference between a class and an object?</b></summary>
+
+  <p>
+    A <b>class</b> is a blueprint or template, while an <b>object</b> is a real instance created from that class.
+  </p>
+
+  <p>
+    A class does not occupy memory for data, but an object occupies memory.
+  </p>
+</details>
 </details>
