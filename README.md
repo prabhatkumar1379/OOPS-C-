@@ -298,17 +298,15 @@ emp2.Name = "Changed";
   <p>B. By reference</p>
   <p>C. By value of reference</p>
   <p>D. By pointer</p>
-
-     <details>
-
-
+ <details>
+   
           <p><b>✅ Correct Answer:</b> C</p>
           <p>
             C# passes object references by value.
             The reference is copied, not the object itself.
           </p>
-  
-      </details>
+          
+ </details>
       
 </details>
 
