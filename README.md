@@ -309,6 +309,7 @@ emp2.Name = "Changed";
           </p>
   
       </details>
+      
 </details>
 
 <details>
@@ -327,6 +328,7 @@ emp2.Name = "Changed";
           For reference types, <code>==</code> compares references unless overloaded.
         </p>
     </details>
+    
 </details>
 
 <details>
@@ -346,9 +348,11 @@ emp2.Name = "Changed";
       </p>
   
   </details>
+  
 </details>
 
 <details>
+  
   <summary><b>🔴 MCQ 10: Is object destruction deterministic in C#?</b></summary>
 
   <p>A. Yes, always</p>
@@ -367,6 +371,7 @@ emp2.Name = "Changed";
   </p>
   
   </details>
+  
 </details>
 
 
