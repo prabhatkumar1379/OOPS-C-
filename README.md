@@ -502,8 +502,6 @@ namespace DemoClass
 <hr>
 
 
-<hr>
-
 <h1>Encapsulation</h1>
 
 
@@ -527,7 +525,7 @@ namespace DemoClass
 </details>
 
 <hr/>
-<details>
+
 <h2>Encapsulation Example (Bank Account)</h2>
 
 ```csharp
