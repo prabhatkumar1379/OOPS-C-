@@ -13,8 +13,8 @@
 ```
 class Employee
 {
-    public int Id;
-    public string Name;
+    public int Id;   //This is the STATE of the object Different objects can have different states.
+    public string Name;  ////This is the STATE of the object Different objects can have different states.
 
     public void Work()
     {
