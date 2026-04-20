@@ -645,9 +645,7 @@ Q3: Why are properties preferred over public fields?
 
 
 <hr>
-<details>
-
-  <hr>
+ 
 
 <h1>Abstraction</h1>
 
@@ -740,4 +738,5 @@ namespace DemoAbstraction
     }
 }
 
-</details>
+```
+ 
