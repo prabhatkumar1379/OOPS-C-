@@ -10,7 +10,7 @@
   <p>
     <b>Note:</b> Every object has its own <b>identity</b>, <b>state</b>, and <b>behavior</b>.
   </p>
-</details>
+
 
  
 ----------------------------------------------
@@ -76,3 +76,5 @@ namespace DemoObject
 
 ```
 **Note:** emp and emp2 are objects created from the same class, each having its own identity and state, while sharing the same behavior defined in the class.
+
+</details>
