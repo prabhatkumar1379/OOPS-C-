@@ -376,3 +376,53 @@ emp2.Name = "Changed";
 </details>
 
 <hr>
+
+<details>
+  <summary><b>❓ What is a class in C#?</b></summary>
+
+  <p>
+    A class is a <b>blueprint or template</b> used to create objects.
+    It defines the <b>data (state)</b> and <b>methods (behavior)</b>
+    that objects created from it will have.
+  </p>
+
+  <p>
+    <b>Note:</b> A class itself does not occupy memory for data.
+    Memory is allocated only when an object is created from the class.
+  </p>
+
+  <hr/>
+
+  <h3>📌 Key Characteristics of a Class</h3>
+  <ul>
+    <li>Blueprint or template</li>
+    <li>Logical entity</li>
+    <li>Does not occupy memory for instance data</li>
+    <li>Used to create multiple objects</li>
+    <li>Defines state and behavior</li>
+  </ul>
+
+  <hr/>
+
+  <h3>💻 Class Example</h3>
+
+```csharp
+using System;
+
+namespace DemoClass
+{
+    class Employee
+    {
+        // ----------- STATE (Data Members) -----------
+        public int Id;
+        public string Name;
+
+        // ----------- BEHAVIOR (Methods) -----------
+        public void Work()
+        {
+            Console.WriteLine("Employee is working");
+        }
+    }
+}
+
+```
