@@ -113,4 +113,15 @@ namespace DemoObject
   </ul>
 </details>
 
+<details>
+  <summary><b>❓ Where does an object live in memory?</b></summary>
+
+  <p>
+    In C#, objects are created on the <b>Heap</b>.
+    The reference variable (like <code>emp</code>) is stored on the <b>Stack</b>.
+  </p>
+</details>
+
+
+
 </details>
