@@ -227,6 +227,23 @@ emp2.Name = "Changed";
   </details>
 </details>
 
+<details>
+  <summary><b>🔴 MCQ 4: When does an object become eligible for garbage collection?</b></summary>
+
+  <p>A. When method execution ends</p>
+  <p>B. When reference goes out of scope</p>
+  <p>C. When no references point to the object</p>
+  <p>D. When Dispose() is called</p>
+
+  <hr/>
+
+  <p><b>✅ Correct Answer:</b> C</p>
+  <p>
+    An object becomes eligible for GC only when there are no active references pointing to it.
+    Garbage collection timing is non-deterministic.
+  </p>
+</details>
+``
 
 
 </details>
