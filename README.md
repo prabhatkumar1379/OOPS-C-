@@ -4,4 +4,5 @@
 <hr>
 <p>
   An object is a real instance created in memory from a class. It holds data and can perform actions.
+  Note : Every object has its own identity, state, and behavior.
 </p>
