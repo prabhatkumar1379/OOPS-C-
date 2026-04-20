@@ -431,7 +431,9 @@ namespace DemoClass
 
 
 <details>
-<h1>  Difference between class and object</h1>
+  
+  <summary><b>❓ Difference between class and object</b></summary>
+ 
 
 <table>
   <thead>
