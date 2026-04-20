@@ -645,3 +645,99 @@ Q3: Why are properties preferred over public fields?
 
 
 <hr>
+<details>
+
+  <hr>
+
+<h1>Abstraction</h1>
+
+<details>
+  <summary><b>❓ What is Abstraction in C#?</b></summary>
+
+  <p>
+    <b>Abstraction</b> means exposing <b>only what an object can do</b>
+    and hiding <b>how it does it</b>.
+  </p>
+
+  <p>
+    <b>Simple definition to remember:</b><br/>
+    Abstraction shows <b>what</b> and hides <b>how</b>.
+  </p>
+
+  <p>
+    <b>Real‑world story:</b><br/>
+    An ATM shows options like Withdraw, Deposit, Check Balance.<br/>
+    You never see how cash validation, network calls, or database updates work.
+  </p>
+</details>
+
+<hr/>
+
+<h2>Abstraction Example (ATM / Payment System)</h2>
+
+```csharp
+using System;
+
+namespace DemoAbstraction
+{
+    // ---------------- ABSTRACTION ----------------
+    // IPayment defines WHAT operation is available
+    // It does NOT define HOW payment happens
+    public interface IPayment
+    {
+        void Pay(decimal amount);
+    }
+
+    // ---------------- IMPLEMENTATION 1 ----------------
+    // Concrete implementation hides internal logic
+    class CreditCardPayment : IPayment
+    {
+        public void Pay(decimal amount)
+        {
+            Console.WriteLine($"Paid {amount} using Credit Card");
+            // Internal steps hidden:
+            // - Card validation
+            // - Fraud check
+            // - Bank API call
+        }
+    }
+
+    // ---------------- IMPLEMENTATION 2 ----------------
+    class UpiPayment : IPayment
+    {
+        public void Pay(decimal amount)
+        {
+            Console.WriteLine($"Paid {amount} using UPI");
+            // Internal steps hidden:
+            // - UPI app interaction
+            // - PIN validation
+            // - Bank settlement
+        }
+    }
+
+    class PaymentProcessor
+    {
+        // ---------------- DEPENDENCY ON ABSTRACTION ----------------
+        // Code depends on IPayment, not on concrete classes
+        public void ProcessPayment(IPayment payment, decimal amount)
+        {
+            payment.Pay(amount);
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            PaymentProcessor processor = new PaymentProcessor();
+
+            IPayment creditCard = new CreditCardPayment();
+            IPayment upi = new UpiPayment();
+
+            processor.ProcessPayment(creditCard, 1000);
+            processor.ProcessPayment(upi, 500);
+        }
+    }
+}
+
+</details>
