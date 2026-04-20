@@ -803,6 +803,63 @@ namespace DemoAbstraction
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Answer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Why should high‑level modules depend on abstractions?</td>
+      <td>
+        This follows the Dependency Inversion Principle.
+        It reduces coupling and allows easy replacement of implementations.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Answer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>How does Abstraction help in unit testing?</td>
+      <td>
+        Abstraction allows mocking or stubbing dependencies,
+        so tests do not rely on real implementations or external systems.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Design‑Time</td>
+      <td>Interfaces and abstractions are defined during system design</td>
+    </tr>
+    <tr>
+      <td>Runtime</td>
+      <td>Actual implementation is resolved using polymorphism</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 </details>
  
