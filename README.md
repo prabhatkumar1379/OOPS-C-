@@ -173,12 +173,14 @@ emp2 ─────────────┐             Employee Object #2
   <p>C. A method inside a class</p>
   <p>D. A namespace</p>
 
-  <hr/>
+   <details>
 
   <p><b>✅ Correct Answer:</b> B</p>
   <p>
     An object is a real instance created in memory from a class.
   </p>
+   </details>
+    
 </details>
 
 
