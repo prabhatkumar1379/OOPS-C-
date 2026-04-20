@@ -185,7 +185,7 @@ emp2 ─────────────┐             Employee Object #2
 
 <details>
   <summary><b>🔴 MCQ 1: Two objects have the same values but different references. Are they the same object?</b></summary>
-
+<br>
   <p>A. Yes, because data is same</p>
   <p>B. Yes, if they are of same class</p>
   <p>C. No, they are different objects</p>
@@ -200,6 +200,31 @@ emp2 ─────────────┐             Employee Object #2
   </p>
   </details>
   
+</details>
+
+<details>
+  <summary><b>🔴 MCQ 2: What happens after assigning one object reference to another?</b></summary>
+
+  <pre>
+Employee emp1 = new Employee();
+Employee emp2 = emp1;
+emp2.Name = "Changed";
+  </pre>
+
+  <p>A. emp1.Name is unchanged</p>
+  <p>B. emp2 points to a new object</p>
+  <p>C. emp1.Name also becomes "Changed"</p>
+  <p>D. Compilation error</p>
+
+  <details>
+
+  <p><b>✅ Correct Answer:</b> C</p>
+  <p>
+    Both <code>emp1</code> and <code>emp2</code> point to the same object in memory.
+    Changing through one reference affects the same object.
+  </p>
+  
+  </details>
 </details>
 
 
