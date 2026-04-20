@@ -499,3 +499,155 @@ namespace DemoClass
 
 
 </details>
+<hr>
+
+
+<hr>
+
+<h1>Encapsulation</h1>
+
+<details>
+  <summary><b>❓ What is Encapsulation in C#?</b></summary>
+
+  <p>
+    <b>Encapsulation</b> is the mechanism of <b>hiding internal data</b> of an object
+    and allowing access to that data only through <b>controlled methods or properties</b>.
+  </p>
+
+  <p>
+    <b>Simple definition to remember:</b><br/>
+    Encapsulation protects the state of an object.
+  </p>
+
+  <p>
+    <b>Real‑world story:</b><br/>
+    A Bank Account does not allow direct access to balance.
+    You must use Deposit or Withdraw operations.
+  </p>
+</details>
+
+<hr/>
+<details>
+<h2>Encapsulation Example (Bank Account)</h2>
+
+```csharp
+using System;
+
+namespace DemoEncapsulation
+{
+    class BankAccount
+    {
+        // ---------------- PRIVATE STATE ----------------
+        // _balance represents the internal STATE of the object.
+        // It is HIDDEN from outside code.
+        private decimal _balance;
+
+        // ---------------- PUBLIC PROPERTY ----------------
+        // Balance property exposes the state in a SAFE way.
+        // ✅ Allows reading the balance
+        // ❌ Does NOT allow modifying the balance directly
+        public decimal Balance
+        {
+            get { return _balance; }
+        }
+
+        // ---------------- PUBLIC METHOD ----------------
+        // Deposit() exposes CONTROLLED access to modify state.
+        // Business rules are enforced here.
+        public void Deposit(decimal amount)
+        {
+            if (amount <= 0)
+            {
+                Console.WriteLine("Deposit amount must be greater than zero.");
+                return;
+            }
+
+            _balance += amount;
+            Console.WriteLine($"Deposited: {amount}");
+        }
+
+        // ---------------- PUBLIC METHOD ----------------
+        // Withdraw() exposes another CONTROLLED behavior.
+        // Prevents invalid state such as negative balance.
+        public void Withdraw(decimal amount)
+        {
+            if (amount <= 0)
+            {
+                Console.WriteLine("Withdrawal amount must be greater than zero.");
+                return;
+            }
+
+            if (amount > _balance)
+            {
+                Console.WriteLine("Insufficient balance.");
+                return;
+            }
+
+            _balance -= amount;
+            Console.WriteLine($"Withdrawn: {amount}");
+        }
+
+        static void Main()
+        {
+            BankAccount account = new BankAccount();
+
+            // ✅ Allowed: modifying state via controlled methods
+            account.Deposit(1000);
+            account.Withdraw(300);
+
+            // ✅ Allowed: read-only access to state
+            Console.WriteLine($"Current Balance: {account.Balance}");
+
+            // ❌ NOT Allowed (Encapsulation enforced by compiler):
+            // account._balance = 5000;    // Error: private field
+            // account.Balance = 2000;     // Error: no setter
+        }
+    }
+}
+
+```
+<details>
+  Q1: Is Encapsulation only about using private fields?
+  Answer: No.
+    Encapsulation is about controlling access, not just hiding data.
+    Validation logic, read-only properties, immutability, and even methods
+    contribute to proper encapsulation.
+</details>
+
+<details>
+ Q2: Can Encapsulation exist without Abstraction?
+  Answer: Yes.
+    Encapsulation protects data integrity, while abstraction focuses on exposing behavior.
+    They are related but independent principles.
+</details>
+
+<details>
+Q3: Why are properties preferred over public fields?
+   . Enable validation logic
+   . Support future changes without breaking clients
+   . Preserve backward compatibility
+   . Improve maintainability and versioning
+</details>
+
+<details>
+
+   Q4: Does Encapsulation help with thread safety?
+   Answer: Indirectly, yes.
+    Encapsulation centralizes state changes, making synchronization
+    and locking easier to manage in one place.
+</details>
+
+<details>
+  Q5: Is Encapsulation a compile-time or runtime concept?
+  Answer: Both.
+  
+    Compile-time: enforced by access modifiers
+    Runtime: ensured by business rules inside methods
+</details>
+
+</details>
+
+
+
+
+<hr>
