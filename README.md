@@ -267,6 +267,7 @@ emp2.Name = "Changed";
 </details>
 
 <details>
+  
   <summary><b>🔴 MCQ 6: What happens immediately after object memory allocation?</b></summary>
 
   <p>A. Methods are executed</p>
@@ -275,8 +276,6 @@ emp2.Name = "Changed";
   <p>D. Finalizer is executed</p>
 
 <details>
-
-    <hr/>
 
   <p><b>✅ Correct Answer:</b> C</p>
   <p>
@@ -292,6 +291,7 @@ emp2.Name = "Changed";
 
 
 <details>
+  
   <summary><b>🔴 MCQ 7: How are objects passed to methods in C#?</b></summary>
 
   <p>A. By value</p>
@@ -301,7 +301,6 @@ emp2.Name = "Changed";
 
      <details>
 
-         <hr/>
 
           <p><b>✅ Correct Answer:</b> C</p>
           <p>
@@ -313,6 +312,7 @@ emp2.Name = "Changed";
 </details>
 
 <details>
+  
   <summary><b>🔴 MCQ 8: What does '==' compare for reference types by default?</b></summary>
 
   <p>A. Object data</p>
@@ -321,7 +321,6 @@ emp2.Name = "Changed";
   <p>D. HashCode</p>
 
     <details>
-        <hr/>
 
         <p><b>✅ Correct Answer:</b> C</p>
         <p>
@@ -338,8 +337,7 @@ emp2.Name = "Changed";
   <p>C. Clone copy</p>
   <p>D. Memory duplication</p>
 
-  <details>
-     <hr/>
+  <details> 
 
       <p><b>✅ Correct Answer:</b> B</p>
       <p>
@@ -360,7 +358,7 @@ emp2.Name = "Changed";
 
   <details>
 
-    <hr/>
+ 
 
   <p><b>✅ Correct Answer:</b> C</p>
   <p>
