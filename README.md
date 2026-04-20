@@ -298,6 +298,7 @@ emp2.Name = "Changed";
   <p>B. By reference</p>
   <p>C. By value of reference</p>
   <p>D. By pointer</p>
+  
  <details>
    
           <p><b>✅ Correct Answer:</b> C</p>
