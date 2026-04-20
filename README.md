@@ -165,6 +165,21 @@ emp2 ─────────────┐             Employee Object #2
   </p>
 </details>
 
+<details>
+  <summary><b>📝 MCQ 1: What is an object in C#?</b></summary>
+
+  <p>A. A blueprint of a class</p>
+  <p>B. A real instance created from a class</p>
+  <p>C. A method inside a class</p>
+  <p>D. A namespace</p>
+
+  <hr/>
+
+  <p><b>✅ Correct Answer:</b> B</p>
+  <p>
+    An object is a real instance created in memory from a class.
+  </p>
+</details>
 
 
 </details>
