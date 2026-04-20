@@ -120,7 +120,6 @@ namespace DemoObject
     In C#, objects are created on the <b>Heap</b>.
     The reference variable (like <code>emp</code>) is stored on the <b>Stack</b>.
   </p>
-</details>
 
 ```
 
@@ -136,6 +135,7 @@ emp2 ─────────────┐             Employee Object #2
                                  Name = "Pushpa Yadav"
                                  Work()
 ```
+</details>
 
 <details>
   <summary><b>❓ Does every object have its own copy of data?</b></summary>
