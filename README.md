@@ -1,6 +1,7 @@
 ### 1 What is an object in C#❓
 
 <hr>
+
 **Answer:** 
   An object is a real instance created in memory from a class. It holds data and can perform actions.
   <br>
