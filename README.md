@@ -8,7 +8,7 @@
   </p>
 
   <p>
-    <b>Note:</b> Every object has its own <b>identity</b>, <b>state</b>, and <b>behavior</b>.
+    <b>Note:</b>Every object has its own <b>identity</b>, <b>state</b>, and <b>behavior</b>.
   </p>
 
 
